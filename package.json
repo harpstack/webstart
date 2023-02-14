@@ -1,0 +1,41 @@
+{
+  "name": "webstart",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "gulp start",
+    "build": "gulp build --prod=true",
+    "tasks": "gulp --tasks"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4",
+    "browser-sync": "^2.27.10",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-ejs": "^5.1.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-noop": "^1.0.1",
+    "gulp-remember": "^1.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-partials-imported": "^1.0.7",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "prettier": "^2.8.4",
+    "sass": "^1.55.0",
+    "yargs": "^17.6.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.2.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.1",
+    "swiper": "^8.4.5"
+  }
+}
